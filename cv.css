@@ -1,6 +1,23 @@
-aside{
-   float: right;
-   width: 25%;
+.contenedor{
+   display: flex;
+   flex-direction: row;
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+ 
+   flex-grow: 8;
    background-color: salmon;
    padding:10px;
+ 
+   
+}
+article{
+    width: 20%;
+   background-color: blanchedalmond;
+    gap: 5px;
+   
 }
